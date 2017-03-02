@@ -1,0 +1,71 @@
+.social-links {
+	height:100%;
+}
+.social-links a {
+	vertical-align:middle;
+}
+.mag {
+
+    border-radius:50%;
+    color:white;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#magnitude-key .mag{
+	display:inline-block;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+	margin:0 3px;
+}
+
+#event-list .mag{
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    line-height:36px;
+
+}
+
+.mag.tiny {
+	background-color:#107a10;
+}
+.mag.medium {
+	background-color:#FFCC00;
+}
+.mag.large {
+	background-color:#FF6600;
+}
+.mag.x-large {
+	background-color: #FF0000;
+}
+
+a.toggler{
+  display:block;
+}
+
+.toggleable.off{
+    display:none;
+}
+
+h2{
+	background-color:#eee;
+	padding:5px 15px;
+}
+#logo img {
+	width:242px;
+	height:auto;
+}
+
+#fake-navbar{
+	background-color:#f8f8f8;
+	border:1px solid #e7e7e7;
+	padding:5px 20px;
+}
+
+#last-updated{
+	padding-bottom: 5px;
+}
